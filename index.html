@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshy App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="heading">
+    <h1>Bookish Delights &#128218;</h1>
+</div>
+<div class="container">
+    <div class="cont1">
+        <h2>The Power of Your Subconscious Mind</h2>
+        <h4>Joseph Murphy</h4>
+        <p>A self-help book that explores the potential and influence the subconscious mind can have on our lives. It offers techniques to harness the power of your subconscious mind for personal growth and success.</p>
+    <br><button onclick="delbtn(event)">Delete</button>
+
+</div>
+<div class="cont1">
+    <h2>Ikigai</h2>
+    <h4>Hector Garcia</h4>
+    <p>The Japanese concept of finding purpose and joy in everyday life.</p>
+    <br><button onclick="delbtn(event)">Delete</button>
+
+</div>
+
+    
+</div>
+
+<div class="boxadd">
+    <h2 class="add-book">ADD BOOK</h2> <br>
+    <form class="boxfrm">
+        
+<input type="text" id="book-name" placeholder="Book-Tittle"><br><br>
+<input type="text" id="book-author" placeholder="Book-Author"><br><br>
+<textarea class="text-place" placeholder="Short description"></textarea><br><br>
+<button class="addopn">Add</button>
+<button class="cancel">Cancel</button>
+    </form>
+</div>
+<button id="addbtn" class="btnadding">+</button>
+<script src="script.js"></script>
+</body>
+
+</html>
